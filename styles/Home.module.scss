@@ -13,9 +13,12 @@ $boxCount: 10;
     grid-template-columns: repeat($boxCount, 1fr);
     grid-template-rows: repeat($boxCount, 1fr);
     grid-auto-flow: column;
-    gap: 1px;
-    .box {
+    gap: 2px;
+    .valid {
       background: gray;
+    }
+    .bomb {
+      background: cyan;
     }
   }
 }
